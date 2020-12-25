@@ -1,9 +1,10 @@
 package com.crud.clients.services.exceptions;
 
-public class EntityNotFoundException extends RuntimeException {
+public class DatabaseException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
-
-	public EntityNotFoundException(String message) {
+	
+	public DatabaseException(String message) {
 		super(message);
 	}
+
 }
